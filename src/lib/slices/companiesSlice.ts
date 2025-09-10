@@ -95,3 +95,5 @@ export const {
   setItemsPerPage,
   updatePagination
 } = companiesSlice.actions;
+
+export default companiesSlice;

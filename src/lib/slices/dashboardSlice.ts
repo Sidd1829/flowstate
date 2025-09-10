@@ -89,3 +89,5 @@ export const dashboardSlice = createSlice({
 });
 
 export const { setMetrics, setRevenueData, setMarginTrends, setEntityPerformance, setLoading, setSelectedTimeframe, setSelectedFinancialYear, fetchDataForYear } = dashboardSlice.actions;
+
+export default dashboardSlice;

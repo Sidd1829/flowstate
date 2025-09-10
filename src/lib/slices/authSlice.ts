@@ -86,3 +86,5 @@ export const {
 
 // Export types for use in other files
 export type { User, AuthData };
+
+export default authSlice;

@@ -44,7 +44,7 @@ export function Header({
       dispatch(setLoading(true));
 
       // Simulate API call delay
-      await new Promise((resolve) => setTimeout(resolve, 800));
+      await new Promise<void>((resolve) => setTimeout(resolve, 800));
 
       const mockData = generateMockDataForYear(year);
 
